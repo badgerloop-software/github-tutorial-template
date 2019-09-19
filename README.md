@@ -5,9 +5,11 @@ This Tutorial is based on the one from [hubspot](https://product.hubspot.com/blo
 
 This is a template Repo to teach the basics of contributing to a repository in Badgerloop
 
+# How to Run a Seminar with this Repo (For Leads and Execs)
+
 Simply create a new repository in the Badgerloop-Software and select github-tutorial-template as a template to run as many sessions as you want.
 
-# Instructions
+# Instructions (Start Here)
 
 ## Step 1: Clone the Repository
 No matter what project you're working on in Badgerloop, you will always be working in a repository (Repo for short). To use git we'll be using the terminal. Check out some tutorials on the wiki. In this guide you will need to know the following.
