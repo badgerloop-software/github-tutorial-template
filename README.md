@@ -1,4 +1,4 @@
-# github-tutorial-template
+# GitHub-Tutorial-Template
 *Author: [Eric Udlis](http://ericudlis.com)*
 
 This Tutorial is based on the one from [hubspot](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
