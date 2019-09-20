@@ -82,7 +82,7 @@ This is where the version control comes in. You can backtrack to any previous co
 ### Staging Enviorment
 So, how do you tell git which files to put into a commit? This is where the staging enviroment comes in. As seen in Step 2, when you make changes to your repo, git notices that a file has changed but won't do anything with it. **Git will not automatically add your files to a commit**
 
-## Step 3: Add a File to the Staging Enviroment
+## Step 4: Add a File to the Staging Enviroment
 Add a file to the staging enviroment by using the `git add` command
 ```
 Bucky@Badgerloop~$: git add Eric.txt
@@ -93,7 +93,7 @@ Changes to be committed:
 
         new file:   Eric.txt
 ```
-## Step 4: Commit Your Changes
+## Step 5: Commit Your Changes
 It's time to create your first commit!
 
 Run the `git commit -m "{Your commit message}` command.
@@ -107,7 +107,7 @@ Bucky@Badgerloop~$: git commit -m "Added Eric.txt to mark my contribution"
  create mode 100644 Eric.txt
  ```
 
- ## Steep 4.5: A Better Way
+ ## Steep 5.5: A Better Way
 
  When working with several files, it gets tedious to add every single file for one commit. An easier way to commit several files is to run the `git commit` command with the `-am` flag. As we learned eariler `-m` means you're adding a message to your commit. The `-a` flag means you want to add all untracked files. You could combine steps 3 and 4 by only using this command.
 
@@ -118,7 +118,7 @@ Bucky@Badgerloop~$: git commit -m "Added Eric.txt to mark my contribution"
  create mode 100644 Eric.txt
  ```
 
-## Step 5: Push a branch to GitHub
+## Step 6: Push a branch to GitHub
 
 Now that we are done with our change, we are ready to **push** it to GitHub. This allows other people to see the changes you've made, and eventually be put into master.
 
@@ -139,7 +139,7 @@ At this point it may ask you to log in with your username and password.
 
 Finally, if you refresh the GitHub page, you'll see a note of recently pushed branches, yours may be there, or click the "branches" link to see your branch listed there.
 
-## Step 6: Creating a Pull Request
+## Step 7: Creating a Pull Request
 
 A pull request (or PR) is a way to alert the team leads that you want to make some changes to the codebase. It allows them, as well as other Badgerloop members to review the code and make sure it looks good before putting your changes on the master branch.
 
@@ -155,7 +155,7 @@ Note that this button won't always be green. In some cases it'll be grey, which 
 
 Once the button is green, go ahead and click it. This will merge your changes into the master branch. When you're done, click delete branch as well. This will help with clutter.
 
-## Step 7: Update the Files on Your Computer
+## Step 8: Update the Files on Your Computer
 
 Right now the repo on GitHub looks a little different than what you have on your computer. For example, the merge commit you just made doesn't exist on your local machine. We need to get the most recent changes with a `git pull` command.
 
@@ -174,7 +174,7 @@ Merge made by the 'recursive' strategy.
  1 file changed, 1 insertion(+)
  ```
 
-## Step 8: Give yourself a Pat on the Back
+## Step 9: Give yourself a Pat on the Back
 
 Yahoo, you've sucessfully contributed to a repository! Congratulations, this is the foundation of writing code for the Badgerloop teams and will be used nearly every time you work with Badgerloop Software.
 
