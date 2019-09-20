@@ -11,6 +11,10 @@ Simply create a new repository in the Badgerloop-Software and select github-tuto
 
 # Instructions (Start Here)
 
+## Step 0: Install Git
+
+Download git (here)[https://git-scm.com/downloads]. Follow the walkthrough, all default options should be good. Don't touch them unless you know what you're doing.
+
 ## Step 1: Clone the Repository
 No matter what project you're working on in Badgerloop, you will always be working in a repository (Repo for short). To use git we'll be using the terminal. Check out some tutorials on the wiki. In this guide you will need to know the following.
 ```
@@ -18,15 +22,15 @@ Bucky@Badgerloop~$: ls    // Lists the files and directories in your current dir
 Bucky@Badgerloop~$: cd    // Navigates to directory use `cd ..` to navigate up a directory
 Bucky@Badgerloop~$: pwd   // Prints your working directory
 ```
-We already have code up on GitHub so the first step is to "clone" a copy of what we have on your local machine. To begin, open up a terminal (on windows use Git Bash or WSL to follow the commands used in this tutorial) and navigate to where you'd like your project to be located. If you have a "projects" folder, this would be the place.
+We already have code up on GitHub so the first step is to "clone" a copy of what we have on your local machine. To begin, open up a terminal (on windows use Git Bash or WSL to follow the commands used in this tutorial) and navigate to where you'd like your project to be located. If you have a "projects" folder, this would be the place. This command will navigate you to your home directory
 ```
-Bucky@Badgerloop~$: cd ~ // Navigates you to home directory
+Bucky@Badgerloop~$: cd ~ 
 ```
 Next grab the clone link from the GitHub Page. You will need to navigate to the actual webpage of the git repository on GitHub. You can find a list of all Badgerloop Repos by [clicking here](https://github.com/badgerloop-software/). If you're reading this on the GitHub page, just click the green button in the upper right that says "Clone or Download". Copy that link to your clipboard, we'll need it in the next step.
 
 Finally, execute a git clone command to copy the repository to your local machine by typing
 ```
-Bucky@Badgerloop~$: git clone {git link}
+Bucky@Badgerloop~$: git clone gitLinkHere
 ```
 This will create a directory with the most up to date version of the repository. Simply navigate into it and you will be inside the repository. Run `git status` to make sure you are in a valid git repo.
 ```
