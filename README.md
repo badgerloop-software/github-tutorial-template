@@ -13,7 +13,7 @@ Simply create a new repository in the Badgerloop-Software and select github-tuto
 
 ## Step 0: Install Git
 
-Download git (here)[https://git-scm.com/downloads]. Follow the walkthrough, all default options should be good. Don't touch them unless you know what you're doing.
+Download git [here](https://git-scm.com/downloads). Follow the walkthrough, all default options should be good. Don't touch them unless you know what you're doing.
 
 ## Step 1: Clone the Repository
 No matter what project you're working on in Badgerloop, you will always be working in a repository (Repo for short). To use git we'll be using the terminal. Check out some tutorials on the wiki. In this guide you will need to know the following.
