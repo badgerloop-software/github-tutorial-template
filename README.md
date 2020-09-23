@@ -9,6 +9,8 @@ This is a template Repo to teach the basics of contributing to a repository in B
 
 Click the "Use this template" button in the top row to copy this readme over to a new repository. Follow the instructions below and enjoy!
 
+**If the top left of your repository screen says badgerloop-software/github-tutorial-template you have not properly created a template. Do not make any pull requests to this repository**
+
 # Instructions (Start Here)
 
 ## Step 0: Install Git
